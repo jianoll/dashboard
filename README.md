@@ -10,13 +10,18 @@
     grafana-cli plugins install raintank-kubernetes-app 
     grafana-cli plugins install abhisant-druid-datasource 
     grafana-cli plugins install foursquare-clouderamanager-datasource 
-    grafana-cli plugins install praj-ams-datasource 
+    grafana-cli plugins install praj-ams-datasource
+    grafana-cli plugins install crate-datasource
     grafana-cli plugins install percona-percona-app 
     grafana-cli plugins install alexanderzobnin-zabbix-app
 ```
 
 - grafana dashboards
 ```
+    https://grafana.com/dashboards/2292
+    https://grafana.com/dashboards/878
+    https://grafana.com/dashboards/2030
+    https://grafana.com/dashboards/881
     https://github.com/percona/grafana-dashboards/tree/master/dashboards
     https://github.com/jimmidyson/prometheus-grafana-dashboards
     https://github.com/life360/prometheus-grafana-dashboards/tree/master/cassandra

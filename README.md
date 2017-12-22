@@ -1,8 +1,8 @@
 
 - install
 ```
-    wget https://s3-us-west-2.amazonaws.com/grafana-releases/release/grafana-4.1.2-1486989747.x86_64.rpm 
-    sudo yum localinstall grafana-4.1.2-1486989747.x86_64.rpm 
+    wget https://s3-us-west-2.amazonaws.com/grafana-releases/release/grafana-4.6.3-1.x86_64.rpm 
+    sudo yum localinstall grafana-4.6.3-1.x86_64.rpm 
     #grafana-cli plugins list-remote
     
     grafana-cli plugins install stagemonitor-elasticsearch-app 
@@ -28,9 +28,12 @@
     https://grafana.com/dashboards/2949
     https://grafana.com/dashboards/2583
     https://grafana.com/dashboards/3457
+    https://grafana.com/dashboards/1860
+    https://grafana.com/dashboards/159
+    https://grafana.com/dashboards/405
+    https://grafana.com/dashboards/315
+    https://grafana.com/dashboards/741
+    https://grafana.com/dashboards/3244
     https://github.com/percona/grafana-dashboards/tree/master/dashboards
-    https://github.com/jimmidyson/prometheus-grafana-dashboards
-    https://github.com/life360/prometheus-grafana-dashboards/tree/master/cassandra
-    https://grafana.com/dashboards
-   https://github.com/hammerlab/grafana-spark-dashboards
+    https://github.com/hammerlab/grafana-spark-dashboards
 ```

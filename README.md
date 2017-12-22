@@ -21,7 +21,13 @@
     https://grafana.com/dashboards/2292
     https://grafana.com/dashboards/878
     https://grafana.com/dashboards/2030
-    https://grafana.com/dashboards/881
+    https://grafana.com/dashboards/2711
+    https://grafana.com/dashboards/917
+    https://grafana.com/dashboards/923
+    https://grafana.com/dashboards/926
+    https://grafana.com/dashboards/2949
+    https://grafana.com/dashboards/2583
+    https://grafana.com/dashboards/3457
     https://github.com/percona/grafana-dashboards/tree/master/dashboards
     https://github.com/jimmidyson/prometheus-grafana-dashboards
     https://github.com/life360/prometheus-grafana-dashboards/tree/master/cassandra

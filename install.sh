@@ -11,6 +11,7 @@ grafana-cli plugins install crate-datasource
 grafana-cli plugins install percona-percona-app
 grafana-cli plugins install alexanderzobnin-zabbix-app
 grafana-cli plugins install fastweb-openfalcon-datasource
+grafana-cli plugins install raintank-kubernetes-app
 
 mkdir /var/lib/grafana/dashboards
 wget https://grafana.com/api/dashboards/1124/revisions/4/download -O /var/lib/grafana/dashboards/prometheus_snmp_network.json

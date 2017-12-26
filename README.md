@@ -14,7 +14,6 @@
     https://grafana.com/dashboards/405
     https://grafana.com/dashboards/315
     https://grafana.com/dashboards/741
-    
     https://grafana.com/dashboards/3244
     https://grafana.com/dashboards/1124
     https://grafana.com/dashboards/1666

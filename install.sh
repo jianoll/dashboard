@@ -25,7 +25,6 @@ wget https://grafana.com/api/dashboards/3901/revisions/1/download -O /var/lib/gr
 wget https://grafana.com/api/dashboards/2040/revisions/4/download -O /var/lib/grafana/dashboards/prometheus_tidb.json
 wget https://grafana.com/api/dashboards/2043/revisions/8/download -O /var/lib/grafana/dashboards/prometheus_tikv.json
 wget https://grafana.com/api/dashboards/2037/revisions/4/download -O /var/lib/grafana/dashboards/prometheus_pd.json
-wget https://grafana.com/api/dashboards/159/revisions/4/download -O /var/lib/grafana/dashboards/prometheus.json
 wget https://grafana.com/api/dashboards/3457/revisions/1/download -O /var/lib/grafana/dashboards/prometheus_jmx.json
 wget https://grafana.com/api/dashboards/2949/revisions/1/download -O /var/lib/grafana/dashboards/prometheus_nginx_vts.json
 wget https://grafana.com/api/dashboards/926/revisions/1/download -O /var/lib/grafana/dashboards/prometheus_ceph_pools.json
@@ -49,8 +48,8 @@ wget https://grafana.com/api/dashboards/2292/revisions/5/download -O /var/lib/gr
 wget https://github.com/percona/grafana-dashboards/archive/master.zip -O /tmp/percona.zip
 cd /tmp && unzip /tmp/percona.zip
 cp -r /tmp/grafana-dashboards-master/dashboards /var/lib/grafana/
-cp -r grafana-dashboards/dashboards /var/lib/grafana/
 
+chown -R grafana:grafana /var/lib/grafana
 
 sudo /bin/systemctl daemon-reload
 sudo /bin/systemctl enable grafana-server.service

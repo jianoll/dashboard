@@ -15,6 +15,8 @@ grafana-cli plugins install digrich-bubblechart-panel
 grafana-cli plugins install briangann-datatable-panel
 grafana-cli plugins install jdbranham-diagram-panel
 grafana-cli plugins install citilogics-geoloop-panel
+grafana-cli plugins install grafana-piechart-panel
+grafana-cli plugins install grafana-clock-panel
 
 mkdir -p /var/lib/grafana/dashboards
 

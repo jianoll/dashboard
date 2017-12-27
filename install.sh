@@ -10,8 +10,6 @@ grafana-cli plugins install foursquare-clouderamanager-datasource
 grafana-cli plugins install crate-datasource
 grafana-cli plugins install alexanderzobnin-zabbix-app
 grafana-cli plugins install fastweb-openfalcon-datasource
-#grafana-cli plugins install raintank-kubernetes-app
-#grafana-cli plugins install percona-percona-app
 grafana-cli plugins install grafana-worldmap-panel
 grafana-cli plugins install digrich-bubblechart-panel
 grafana-cli plugins install briangann-datatable-panel

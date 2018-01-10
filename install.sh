@@ -31,5 +31,5 @@ sudo /bin/systemctl enable grafana-server
 sudo /bin/systemctl start grafana-server
 
 
-#添加 数据源: Prometheus,Zabbix,Elasticsearch_system_metrics,Elasticsearch_access_log,Elasticsearch_self_metrics
+#添加 数据源: Prometheus,Zabbix,Elasticsearch_system_metrics,Elasticsearch_access_log,Elasticsearch_self_metrics,Graphite
 #添加数据源的时候开启数据源自带的dashboards

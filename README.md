@@ -10,3 +10,7 @@
 5,支持Graphite
 6,大数据组件的dashboard的数据源推荐ambari_metrics 具体见 https://github.com/xiaomatech/bigdata
 ```
+
+#参考 
+- http://docs.grafana.org/
+- https://kiswo.com/article/1021

@@ -20,6 +20,12 @@ grafana-cli plugins install grafana-clock-panel
 
 mkdir -p /var/lib/grafana/dashboards
 
+wget https://github.com/xiaomatech/dashboard/archive/master.zip -O /tmp/master.zip
+cd /tmp && unzip /tmp/master.zip
+cp -rf /tmp/dashboard-master/dashboards/* /var/lib/grafana/dashboards/
+cp -rf /tmp/dashboard-master/spark/* /var/lib/grafana/dashboards/
+rm -rf /tmp/master.zip /tmp/dashboard-master
+
 sudo /bin/systemctl daemon-reload
 sudo /bin/systemctl enable grafana-server
 sudo /bin/systemctl start grafana-server

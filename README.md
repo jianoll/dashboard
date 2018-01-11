@@ -11,6 +11,14 @@
 6,大数据组件的dashboard的数据源推荐ambari_metrics 具体见 https://github.com/xiaomatech/bigdata
 ```
 
+# 安装
+```bash
+    wget https://raw.githubusercontent.com/xiaomatech/dashboard/master/install.sh
+   
+    #修改对应的 resourcemanager_url carbon_relay_host
+    
+    bash install.sh
+```
 #参考 
 - http://docs.grafana.org/
 - https://kiswo.com/article/1021
